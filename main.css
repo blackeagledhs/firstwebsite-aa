@@ -1,5 +1,87 @@
 /*Styles for all pages*/
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
 
+/*
+For Brand
+.yellowtail-regular {
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  For titles
+  .fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+For paragraphs
+.cherry-cream-soda-regular {
+  font-family: "Cherry Cream Soda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
 /*Header*/
+.topbar__social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
 
+.topbar__social--subtitle {
+    font-family: "Fugaz One", sans-serif;
+    font-size: 1.2em;
+}
+
+.topbar__social--icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.topbar__social--icons a {
+    text-decoration: none;
+    padding: 0 8px;
+    color: #000000;
+}
+
+.topbar__brand {
+    margin: 0 10%;
+    padding: 10px;
+    font-family: "Yellowtail", cursive;
+    font-size: 7em;
+    text-align: center;
+    border-top: 8px solid;
+    border-image-source: linear-gradient(to left, #000000, #6e6e6e,#b6b6b6,#ffffff,#b6b6b6,#6e6e6e, #000000);
+    border-bottom: 8px solid;
+    border-image-source: linear-gradient(to left, #000000, #6e6e6e,#b6b6b6,#ffffff,#b6b6b6,#6e6e6e, #000000);
+    border-image-slice: 1;
+}
+
+.topbar__navbar {
+    margin: 0 10%;
+    padding: 8px;
+    border-bottom: 4px dashed;
+}
+
+.topbar__navbar--list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topbar__navbar--list--item {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 1.1em;
+}
+
+.topbar__navbar--list--item:hover {
+    color: #6e6e6e;
+}
 /*Footer*/

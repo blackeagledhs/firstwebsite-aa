@@ -3,11 +3,15 @@ Here put all details for Capstone project
 The idea is implement HTML Semantic and BEM for CSS
 
 For all Page
+    --- font for paragraphs cherry cream soda
+    --- for name yellowtail
+    --- for titles fugaz one
+    --- all fonts from google fonts
 
     Navbar with link to other pages
     display using flex with logo on left and menu on the right side
     borders with gradient top and bottom
-    font family roboto
+    font family Yellowtail
     size 1.2em
     margin 10% for left and right
     color not selected yet
@@ -36,4 +40,4 @@ Gallery
     center gallery in the page
 
 Relationed Links
-    List of similar sites with info about 
+    List of similar sites with info about
