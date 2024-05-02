@@ -1,0 +1,18 @@
+.container__biography {
+    margin: 0 10%;
+}
+
+.container__biography--title {
+    font-family: var(--font-family-h2);
+    text-decoration: underline;
+    margin-left: 30px;
+    font-size: 1.9em;
+}
+
+.container__biography--text {
+    line-height: 1.5em;
+    font-family: var(--font-family-text);
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 8px 0;
+}

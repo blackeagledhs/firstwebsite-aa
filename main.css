@@ -1,8 +1,16 @@
+/*
+Name: Mauro A Vicens
+Github: https://github.com/blackegledhs
+Capstone Project
+Created: for App Academy
+Section: HTML & CSS
+*/
+
 /*Styles for all pages*/
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
-
+@import url('home.css');
 /*
 For Brand
 .yellowtail-regular {
@@ -24,7 +32,16 @@ For paragraphs
 }
 
 */
-/*Header*/
+:root {
+    --font-family-h1: "Yellowtail", cursive;
+    --font-family-h2: "Fugaz One", sans-serif;
+    --font-family-text: "CherryCream Soda", system-ui;
+
+    --topbar-gradient: linear-gradient(to left, #000000, #6e6e6e,#b6b6b6,#ffffff,#b6b6b6,#6e6e6e, #000000);
+    --footer-gradient: linear-gradient(to left, #000000, #6e6e6e);
+}
+
+/*============ HEADER =================================================*/
 .topbar__social {
     display: flex;
     justify-content: space-between;
@@ -32,7 +49,7 @@ For paragraphs
 }
 
 .topbar__social--subtitle {
-    font-family: "Fugaz One", sans-serif;
+    font-family: var(--font-family-h2);
     font-size: 1.2em;
 }
 
@@ -52,13 +69,13 @@ For paragraphs
 .topbar__brand {
     margin: 0 10%;
     padding: 10px;
-    font-family: "Yellowtail", cursive;
+    font-family: var(--font-family-h1);
     font-size: 7em;
     text-align: center;
     border-top: 8px solid;
-    border-image-source: linear-gradient(to left, #000000, #6e6e6e,#b6b6b6,#ffffff,#b6b6b6,#6e6e6e, #000000);
+    border-image-source: var(--topbar-gradient);
     border-bottom: 8px solid;
-    border-image-source: linear-gradient(to left, #000000, #6e6e6e,#b6b6b6,#ffffff,#b6b6b6,#6e6e6e, #000000);
+    border-image-source: var(--topbar-gradient);
     border-image-slice: 1;
 }
 
@@ -77,11 +94,73 @@ For paragraphs
 .topbar__navbar--list--item {
     text-decoration: none;
     color: #000000;
-    font-family: "Fugaz One", sans-serif;
-    font-size: 1.1em;
+    font-family: var(--font-family-h2);
+    font-size: 1.2em;
 }
 
 .topbar__navbar--list--item:hover {
     color: #6e6e6e;
 }
-/*Footer*/
+
+/*============= MAIN FOR ALL PAGE =================================*/
+
+.container {
+    background: #ececec;
+    margin: 10px 13% 0;
+    padding: 3px 0;
+    border-radius: 10px;
+}
+
+/*============== FOOTER ===========================================*/
+.line {
+    border-top: 4px dashed;
+    margin: 2% 10% 0;
+}
+
+.footer {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__box1, .footer__box2, .footer__box3 {
+    margin: 5% 1%;
+    border-top: 3px solid;
+    border-image-source: var(--footer-gradient);
+    border-image-slice: 1;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    padding: 8px;
+}
+
+.footer2 {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2__copyright {
+    font-family: var(--font-family-h2);
+    font-size: 1.2em;
+}
+
+.footer2__links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-text);
+}
+
+.footer2__links--item {
+    text-decoration: none;
+    margin: 0 9px;
+    color: #000000;
+}
+
+.footer2__links--item:hover {
+    color: #6e6e6e;
+}
