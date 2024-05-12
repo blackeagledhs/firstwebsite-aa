@@ -1,0 +1,28 @@
+.container__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.container__gallery--item {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.container__gallery--item a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.container__gallery--item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

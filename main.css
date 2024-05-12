@@ -11,6 +11,7 @@ Section: HTML & CSS
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
 @import url('home.css');
+@import url('gallery.css');
 /*
 For Brand
 .yellowtail-regular {
