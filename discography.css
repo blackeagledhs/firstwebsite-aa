@@ -1,0 +1,22 @@
+h2 {
+    font-family: var(--font-family-h2);
+    font-size: 1.7em;
+}
+.singles, .originalAlbums {
+    margin: 2% 10%;
+}
+
+.singles__years, .singles__decade, .originalAlbums__album {
+    list-style: none;
+}
+
+.singles__subtitles {
+    font-family: var(--font-family-h2);
+}
+
+.singles__decade li, .originalAlbums__album li{
+    padding: 6px;
+    font-family: var(--font-family-text)
+}
+
+
