@@ -1,0 +1,28 @@
+.relatedLinks {
+
+}
+
+.relatedLinks__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.relatedLinks__list-items {
+    font-weight: 600;
+}
+
+.relatedLinks__list-items::after {
+    content: ' /';
+
+}
+
+.relatedLinks__list-items a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.relatedLinks__list-items a:hover {
+    color: #686565;
+}

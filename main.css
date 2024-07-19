@@ -13,6 +13,8 @@ Section: HTML & CSS
 @import url('home.css');
 @import url('gallery.css');
 @import url('discography.css');
+@import url('relatedlinks.css');
+@import url('contact.css');
 /*
 For Brand
 .yellowtail-regular {
